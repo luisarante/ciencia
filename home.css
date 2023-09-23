@@ -1,0 +1,77 @@
+:root{
+    --bg-color: #0f0f0f;
+    --bg-color-2: #1c1c1c;
+    --white-1: #fff;
+    --logo-color: #21da00;
+    --hd-letras: #638b36;
+    --main-letras: #f5f5f5;
+    --main-letras-2: #000;
+    --main-important: #6b3fa0;
+}
+
+body{
+    background: var(--bg-color);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#pp-header img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.insta-svg{
+    border-radius: 50px;
+}
+
+.insta-svg path{
+    transition: 0.3s;
+}
+
+#header{
+    margin-top: 3rem;
+}
+
+#header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+#main{
+    margin-top: 3rem;
+}
+#main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    align-items: center;
+}
+
+.bio-link{
+    padding: 0.5em;
+    border-bottom: 1px solid #f5f5f5;
+    transition: 0.3s;
+}
+
+.bio-link a{
+    color: var(--main-letras);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bio-link:hover{
+    opacity: 0.85;
+    border-bottom: 1px solid var(--logo-color);
+}
